@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T20:01:14.409Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="j35k-A7tP_HwhoFhonrI" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T20:03:09.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="3d32_nXVwsiO2s0ir6pe" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1401" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -412,6 +412,33 @@
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-303" value="Aware接口到底有什么用？&lt;br&gt;答：当spring容器创建bean对象在进行具体操作的时候，如果需要容器的其他对象，此时可以将对象实现Aware接口，来满足当前的需要。&lt;br&gt;（CRUD用不上，一般用户框架的二次开发）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1150" y="480" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-315" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="267.5" y="1290" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-307" value="springBean" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="brJTGo-iU788ZS12ijNm-315">
+          <mxGeometry y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-308" value="容器对象" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="brJTGo-iU788ZS12ijNm-315">
+          <mxGeometry x="160" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-309" value="普通对象" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="brJTGo-iU788ZS12ijNm-315">
+          <mxGeometry x="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-310" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="brJTGo-iU788ZS12ijNm-315">
+          <mxGeometry x="138" y="30" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-311" value="我们自定需要的对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="brJTGo-iU788ZS12ijNm-315">
+          <mxGeometry x="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-312" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="brJTGo-iU788ZS12ijNm-315" source="brJTGo-iU788ZS12ijNm-309" target="brJTGo-iU788ZS12ijNm-311">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-313" value="内置对象spring需要的对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="brJTGo-iU788ZS12ijNm-315">
+          <mxGeometry x="360" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-314" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="brJTGo-iU788ZS12ijNm-315" source="brJTGo-iU788ZS12ijNm-308" target="brJTGo-iU788ZS12ijNm-313">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
