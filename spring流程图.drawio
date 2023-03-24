@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T18:28:41.457Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="V6SxdVlrGM41nfMFWcAP" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T18:38:20.095Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="tSSANwTwa6mbpPk0x0Bf" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1401" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
           <mxGeometry x="590" y="470" width="520" height="60" as="geometry" />
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-215" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="797" y="980" width="630" height="310" as="geometry" />
+          <mxGeometry x="910" y="980" width="630" height="310" as="geometry" />
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-204" value="Class.forName(完全限定名)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="brJTGo-iU788ZS12ijNm-215">
           <mxGeometry x="190" width="160" height="60" as="geometry" />
@@ -227,6 +227,42 @@
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-212" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;ol style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;如果spring使用这种反射创建实例那就太low了， 不利与扩展，也没有形成规范。&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;容器创建过程中需要动态的改变bean的信息怎么办？这时候你就改不了。（前后增强，字符串替换等等，配置刷新）&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;如果想随时修改BeanDefinition怎么办？&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="brJTGo-iU788ZS12ijNm-216">
           <mxGeometry y="190" width="540" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-219" value="&lt;h1&gt;&lt;div style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;pre&gt;BeanPostProcessor&lt;/pre&gt;&lt;/div&gt;&lt;/h1&gt;&lt;p&gt;bean的后置处理器接口，在依赖注入的初始化方法前后进行调用&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1460" y="1220" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-222" value="PostProcessor&lt;br&gt;后置处理器、&lt;br&gt;增强器。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-232" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="brJTGo-iU788ZS12ijNm-223" target="brJTGo-iU788ZS12ijNm-231">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-223" value="BeanFactoryPostProcessor&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1090" y="1310" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-234" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="brJTGo-iU788ZS12ijNm-224" target="brJTGo-iU788ZS12ijNm-233">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-224" value="BeanPostProcessor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1090" y="1400" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-227" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=-0.005;entryY=0.352;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="brJTGo-iU788ZS12ijNm-223">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="1380" as="sourcePoint" />
+            <mxPoint x="1080" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-228" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=-0.005;entryY=0.626;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="brJTGo-iU788ZS12ijNm-224">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="1380" as="sourcePoint" />
+            <mxPoint x="1080" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-231" value="修改（增强）BeanDefinition信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1370" y="1310" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-233" value="修改（增强）Bean信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1370" y="1400" width="200" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
