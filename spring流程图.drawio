@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T18:02:10.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="2_4_BT-8W-UtYtjTE1tq" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T18:03:55.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="ZToIXqCzJighEFhUfm2v" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1401" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
         <mxCell id="brJTGo-iU788ZS12ijNm-210" value="获取构造器，进行实例化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1260" y="1050" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="brJTGo-iU788ZS12ijNm-212" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;ol style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;如果spring使用这种反射创建实例那就太low了， 不利与扩展，也没有形成规范。&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;容器创建过程中需要动态的改变bean的信息怎么办？这时候你就改不了。&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="brJTGo-iU788ZS12ijNm-212" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;ol style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;如果spring使用这种反射创建实例那就太low了， 不利与扩展，也没有形成规范。&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;容器创建过程中需要动态的改变bean的信息怎么办？这时候你就改不了。（前后增强，字符串替换等等，配置刷新）&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="840" y="1240" width="540" height="70" as="geometry" />
         </mxCell>
       </root>
