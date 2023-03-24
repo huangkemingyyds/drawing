@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T19:31:13.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="dtlLDuWfpg0UDb-0FTuX" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T19:45:00.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="cZRLBgqD8rvr_SnA_Noh" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1401" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -406,6 +406,9 @@
             <mxPoint x="800" y="870" as="sourcePoint" />
             <mxPoint x="850" y="820" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-303" value="Aware接口到底有什么用？&lt;br&gt;答：当spring容器创建bean对象在进行具体操作的时候，如果需要容器的其他对象，此时可以将对象实现Aware接口，来满足当前的需要。&lt;br&gt;（CRUD用不上，一般用户框架的二次开发）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1150" y="480" width="400" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
