@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T17:38:48.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="ee605Nh_GA2YPSHnCEZT" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T17:39:37.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="pACGdV80NpWhxDJkW_rx" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1401" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -121,6 +121,14 @@
         <mxCell id="brJTGo-iU788ZS12ijNm-46" value="xxxxxxx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="145" y="880" width="130" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-184" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="brJTGo-iU788ZS12ijNm-47" target="brJTGo-iU788ZS12ijNm-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-185" value="反射" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="brJTGo-iU788ZS12ijNm-184">
+          <mxGeometry x="-0.1" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-47" value="BeanDefinition" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="630" y="880" width="160" height="40" as="geometry" />
         </mxCell>
@@ -139,8 +147,11 @@
         <mxCell id="brJTGo-iU788ZS12ijNm-76" value="&lt;ol&gt;&lt;li&gt;Bean定义的格式可以是各种各样&lt;/li&gt;&lt;li&gt;所有解析过程需要规范。&lt;/li&gt;&lt;li&gt;spring提供了解析的入口BeanDefinitionReader。&lt;/li&gt;&lt;li&gt;以后多加入一种，可扩展此类。&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="30" y="1038" width="410" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="brJTGo-iU788ZS12ijNm-178" value="dom4j" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="brJTGo-iU788ZS12ijNm-178" value="dom4j" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="615" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="brJTGo-iU788ZS12ijNm-183" value="实例化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="960" y="870" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
