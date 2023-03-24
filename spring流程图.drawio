@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T17:37:45.817Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="RjVIwMlSmAkhVdLjFG-R" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T17:38:42.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="prMnwfX4trIgniOq65X0" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1401" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -95,7 +95,10 @@
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-175" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="brJTGo-iU788ZS12ijNm-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="850.0000000000002" as="targetPoint" />
+            <mxPoint x="350" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="780" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-41" value="yml" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -103,7 +106,7 @@
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-174" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="brJTGo-iU788ZS12ijNm-42">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="850.0000000000002" as="targetPoint" />
+            <mxPoint x="350" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-42" value="Json" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -112,17 +115,17 @@
         <mxCell id="brJTGo-iU788ZS12ijNm-45" value="bean定义的形式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="590" width="115" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="brJTGo-iU788ZS12ijNm-173" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="brJTGo-iU788ZS12ijNm-46" target="brJTGo-iU788ZS12ijNm-69">
+        <mxCell id="brJTGo-iU788ZS12ijNm-181" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="brJTGo-iU788ZS12ijNm-46" target="brJTGo-iU788ZS12ijNm-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-46" value="xxxxxxx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="145" y="880" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-47" value="BeanDefinition" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="860" width="160" height="40" as="geometry" />
+          <mxGeometry x="680" y="880" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-48" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="400" y="560" width="140" height="395" as="geometry" />
+          <mxGeometry x="390" y="560" width="150" height="395" as="geometry" />
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-49" value="定义解析规范，方便扩展" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="410" y="690" width="120" height="30" as="geometry" />
@@ -131,7 +134,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-69" value="&lt;div style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font face=&quot;Helvetica&quot; color=&quot;#080808&quot;&gt;BeanDefinitionReader&lt;/font&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#080808&quot;&gt;&lt;span style=&quot;font-size: 13.5pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="410" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="brJTGo-iU788ZS12ijNm-76" value="&lt;ol&gt;&lt;li&gt;Bean定义的格式可以是各种各样&lt;/li&gt;&lt;li&gt;所有解析过程需要规范。&lt;/li&gt;&lt;li&gt;spring提供了解析的入口BeanDefinitionReader。&lt;/li&gt;&lt;li&gt;以后多加入一种，可扩展此类。&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="30" y="1038" width="410" height="130" as="geometry" />
