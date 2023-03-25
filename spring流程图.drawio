@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T05:53:28.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="doQwBpQFwV7r6VpFvSGP" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-25T06:01:41.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="V920kz_4D4DMpeKDmoux" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1401" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -491,6 +491,9 @@
         <mxCell id="hKwt7M7VHh-wsLN6Gf_N-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1030" y="1870" width="20" height="330" as="geometry" />
         </mxCell>
+        <mxCell id="hKwt7M7VHh-wsLN6Gf_N-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hKwt7M7VHh-wsLN6Gf_N-24" target="hKwt7M7VHh-wsLN6Gf_N-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hKwt7M7VHh-wsLN6Gf_N-24" value="FactoryBean" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1060" y="2140" width="150" height="40" as="geometry" />
         </mxCell>
@@ -523,6 +526,12 @@
             <mxPoint x="1130" y="2180" as="sourcePoint" />
             <mxPoint x="1020" y="2350" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hKwt7M7VHh-wsLN6Gf_N-42" value="BeanFactory和FactoryBean的区别" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1240" y="2160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hKwt7M7VHh-wsLN6Gf_N-44" value="&lt;ol&gt;&lt;li style=&quot;&quot;&gt;共同点：都是用来创建对象的&lt;/li&gt;&lt;li style=&quot;&quot;&gt;不同点：&lt;/li&gt;&lt;li style=&quot;&quot;&gt;当使用BeanFactory的时候必须要遵循完整的创建过程，过程由spring来控制。&lt;/li&gt;&lt;li style=&quot;&quot;&gt;而使用FactoryBean只需调用getOject方法就可获取对象、整个对象的创建过程由用户自己控制。&lt;/li&gt;&lt;li style=&quot;&quot;&gt;细节：BeanFactory创建的对象，spring一启动就存在，而FactoryBean在调用的时候才会创建，并加入到缓存之中。&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1395" y="2190" width="255" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
