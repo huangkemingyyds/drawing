@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T13:21:04.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="xAOOjop4DM2wr085NK27" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T13:46:37.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="AyKV86ulfmwLMtPC6U9M" version="21.1.1" type="github">
   <diagram name="第 1 页" id="kPf6iTKsyfyUOKiPGm12">
     <mxGraphModel dx="879" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="j61tei6_rBJSNLcT9V6f-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="j61tei6_rBJSNLcT9V6f-1" target="j61tei6_rBJSNLcT9V6f-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="j61tei6_rBJSNLcT9V6f-1" value="BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="100" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j61tei6_rBJSNLcT9V6f-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j61tei6_rBJSNLcT9V6f-2" target="j61tei6_rBJSNLcT9V6f-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j61tei6_rBJSNLcT9V6f-2" value="BeanDefinitionRegisttry&lt;br&gt;PostProcessor(子类)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="100" width="230" height="90" as="geometry" />
@@ -17,46 +23,67 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j61tei6_rBJSNLcT9V6f-4" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="250" width="60" height="210" as="geometry" />
+          <mxGeometry x="20" y="510" width="60" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="j61tei6_rBJSNLcT9V6f-9" value="&amp;nbsp;用户手动添加的BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="210" width="260" height="90" as="geometry" />
+        <mxCell id="j61tei6_rBJSNLcT9V6f-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="100" y="470" width="770" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="j61tei6_rBJSNLcT9V6f-10" value="实现了BeanDefinitionRegisttryPostProcessor接口的类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="310" width="260" height="90" as="geometry" />
+        <mxCell id="j61tei6_rBJSNLcT9V6f-9" value="&amp;nbsp;用户手动添加的BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j61tei6_rBJSNLcT9V6f-20">
+          <mxGeometry width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="j61tei6_rBJSNLcT9V6f-11" value="实现了BeanFactoryPostProcessor接口的类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="410" width="260" height="90" as="geometry" />
+        <mxCell id="j61tei6_rBJSNLcT9V6f-18" value="&amp;nbsp;如果自定义实现了BeanFactoryPostProcessor接口那么想让spring识别到的话，有两种方式：&lt;br&gt;&lt;br&gt;1.定义在spring的配置文件中，让spring自动识别&lt;br&gt;2.调用具体的addBeanFactoryPostProcessor方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="j61tei6_rBJSNLcT9V6f-20">
+          <mxGeometry x="490" width="280" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="j61tei6_rBJSNLcT9V6f-12" value="以方法的参数形式注入进来" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="225" width="120" height="60" as="geometry" />
+        <mxCell id="j61tei6_rBJSNLcT9V6f-19" value="" style="group" vertex="1" connectable="0" parent="j61tei6_rBJSNLcT9V6f-20">
+          <mxGeometry y="15" width="430" height="275" as="geometry" />
         </mxCell>
-        <mxCell id="j61tei6_rBJSNLcT9V6f-13" value="整个工厂中通过类型匹配找到的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="325" width="120" height="60" as="geometry" />
+        <mxCell id="j61tei6_rBJSNLcT9V6f-10" value="实现了BeanDefinitionRegisttryPostProcessor接口的类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j61tei6_rBJSNLcT9V6f-19">
+          <mxGeometry y="85" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="j61tei6_rBJSNLcT9V6f-14" value="通过类型匹配到的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="440" width="120" height="60" as="geometry" />
+        <mxCell id="j61tei6_rBJSNLcT9V6f-11" value="实现了BeanFactoryPostProcessor接口的类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j61tei6_rBJSNLcT9V6f-19">
+          <mxGeometry y="185" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="j61tei6_rBJSNLcT9V6f-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="j61tei6_rBJSNLcT9V6f-12" value="以方法的参数形式注入进来" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j61tei6_rBJSNLcT9V6f-19">
+          <mxGeometry x="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j61tei6_rBJSNLcT9V6f-13" value="整个工厂中通过类型匹配找到的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j61tei6_rBJSNLcT9V6f-19">
+          <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j61tei6_rBJSNLcT9V6f-14" value="通过类型匹配到的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j61tei6_rBJSNLcT9V6f-19">
+          <mxGeometry x="310" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j61tei6_rBJSNLcT9V6f-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="j61tei6_rBJSNLcT9V6f-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="251.01" as="sourcePoint" />
-            <mxPoint x="400" y="250" as="targetPoint" />
+            <mxPoint x="260" y="26.00999999999999" as="sourcePoint" />
+            <mxPoint x="310" y="25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j61tei6_rBJSNLcT9V6f-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="j61tei6_rBJSNLcT9V6f-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="j61tei6_rBJSNLcT9V6f-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="355.51" as="sourcePoint" />
-            <mxPoint x="400" y="354.5" as="targetPoint" />
+            <mxPoint x="260" y="130.51" as="sourcePoint" />
+            <mxPoint x="310" y="129.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j61tei6_rBJSNLcT9V6f-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="j61tei6_rBJSNLcT9V6f-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="j61tei6_rBJSNLcT9V6f-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="461.01" as="sourcePoint" />
-            <mxPoint x="400" y="460" as="targetPoint" />
+            <mxPoint x="260" y="236.01" as="sourcePoint" />
+            <mxPoint x="310" y="235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j61tei6_rBJSNLcT9V6f-18" value="&amp;nbsp;如果自定义实现了BeanFactoryPostProcessor接口那么想让spring识别到的话，有两种方式：&lt;br&gt;&lt;br&gt;1.定义在spring的配置文件中，让spring自动识别&lt;br&gt;2.调用具体的addBeanFactoryPostProcessor方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="580" y="210" width="280" height="340" as="geometry" />
+        <mxCell id="j61tei6_rBJSNLcT9V6f-21" value="执行顺序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="455" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j61tei6_rBJSNLcT9V6f-22" value="BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="230" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j61tei6_rBJSNLcT9V6f-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="j61tei6_rBJSNLcT9V6f-23" target="j61tei6_rBJSNLcT9V6f-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j61tei6_rBJSNLcT9V6f-23" value="BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="230" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j61tei6_rBJSNLcT9V6f-24" value="BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="310" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
