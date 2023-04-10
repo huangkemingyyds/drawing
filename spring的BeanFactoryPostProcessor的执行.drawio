@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T13:17:50.022Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="2hHWM2pbxzqu9yKJeupW" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T13:21:04.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="xAOOjop4DM2wr085NK27" version="21.1.1" type="github">
   <diagram name="第 1 页" id="kPf6iTKsyfyUOKiPGm12">
     <mxGraphModel dx="879" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -54,6 +54,9 @@
             <mxPoint x="350" y="461.01" as="sourcePoint" />
             <mxPoint x="400" y="460" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="j61tei6_rBJSNLcT9V6f-18" value="&amp;nbsp;如果自定义实现了BeanFactoryPostProcessor接口那么想让spring识别到的话，有两种方式：&lt;br&gt;&lt;br&gt;1.定义在spring的配置文件中，让spring自动识别&lt;br&gt;2.调用具体的addBeanFactoryPostProcessor方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="580" y="210" width="280" height="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
