@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T13:14:15.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="JrnpKVLqAs_r8I5rM8U0" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T13:16:01.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="DWLdj5ozhi6MTHDNdJB3" version="21.1.1" type="github">
   <diagram name="第 1 页" id="kPf6iTKsyfyUOKiPGm12">
     <mxGraphModel dx="879" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -17,7 +17,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j61tei6_rBJSNLcT9V6f-4" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="250" width="60" height="210" as="geometry" />
+          <mxGeometry x="10" y="250" width="60" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="j61tei6_rBJSNLcT9V6f-9" value="&amp;nbsp;用户手动添加的BeanFactoryPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j61tei6_rBJSNLcT9V6f-10" value="实现了BeanDefinitionRegisttryPostProcessor接口的类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j61tei6_rBJSNLcT9V6f-11" value="实现了BeanFactoryPostProcessor接口的类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="410" width="260" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
