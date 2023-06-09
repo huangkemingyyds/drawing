@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T17:48:01.315Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41" etag="wHxFRk8c8ATFqdaiUrJI" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-09T17:55:12.125Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.41" etag="8njEgJN4DhuQbdlRNMB6" version="21.3.7" type="github">
   <diagram name="第 1 页" id="4fWyXJP6VSfAbYg68hve">
     <mxGraphModel dx="3337" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -33,8 +33,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AFss-TPShZiB_wvnAR8w-12" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 18px;&quot;&gt;1.  调用父类的构造方法super(parent)，&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot; size=&quot;3&quot;&gt;PathMatchingResourcePatternResolver&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="360" width="700" height="130" as="geometry" />
+        <mxCell id="AFss-TPShZiB_wvnAR8w-12" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;&quot;&gt;1.  调用父类的构造方法super(parent)，定义属性和创建一些集合，&lt;br/&gt;主要是创建一个资源解析器&lt;/font&gt;PathMatchingResourcePatternResolver，解析xml配置文件。&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="250" y="360" width="740" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="AFss-TPShZiB_wvnAR8w-13" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;2. 设置位置文件路径到当前应用程序中&lt;br&gt;     setConfigLocations(&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;configLocations&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(63, 145, 1);&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="245" y="540" width="740" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="AFss-TPShZiB_wvnAR8w-14" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;&quot;&gt;3. 开始进入容器的创建和刷新环节&lt;br&gt;     &lt;/font&gt;refresh()&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="245" y="720" width="740" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
